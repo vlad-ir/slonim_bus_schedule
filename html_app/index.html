@@ -1,0 +1,3249 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <!-- meta character set -->
+	    <meta charset="utf-8">
+	    <title>Расписание городских автобусов</title>
+
+	    <!-- Mobile Specific Meta -->
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	    <!-- bootstrap.min -->
+	    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+	    <!-- demo stylesheet -->
+	    <link rel="stylesheet" href="css/demo.css">
+
+
+	</head>
+	<body id="body">
+	    <!-- Header Start -->
+	    <header>
+
+	    </header>
+	    <!-- Header End -->
+
+	    <!-- Main Start -->
+	    <main class="site-content">
+
+
+			<div class="container container-center">
+				<div class="row">
+					<div class="col-md-8"><a href="https://gs.by"><img src="img/logo_gs_full.png" class="img-responsive center-block"/></a></div>
+					<div class="col-md-4" id="busclock"></div>
+					
+					<div class="col-md-12 text-center"><h4>Действует с 25 апреля 2020 года</h4></div>
+
+					<div class="col-md-12">
+						<div class="tc-accordion" id="accordion1">
+							<div class="panel">
+								<h4 class="acdn-title">
+									<a data-toggle="collapse" data-parent="#accordion1" href="#collapse1" class="collapsed"><span class="busname">1</span> Вокзал — Розановщина</a>
+								</h4>
+								<div id="collapse1" class="panel-collapse collapse">
+
+
+									<div class="tc-tabs">
+										<ul class="nav nav-tabs">
+											<li class="active daytype"><a data-toggle="tab" data-days="01234" href="#tab1">Будние дни</a></li>
+											<li class="daytype"><a data-toggle="tab" data-days="56" href="#tab2">Выходные дни</a></li>
+										</ul>
+										<div class="tab-content">
+											<div id="tab1" class="tab-pane fade in active">
+												<div class="row">
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Вокзал:</strong>
+														<span>6:00</span>
+														<span>6:55</span>
+														<span>7:55</span>
+														<span>8:55</span>
+														<span>9:55 <em>(до «Спутн.»)</em></span>
+														<span>12:00 <em>(с&nbsp;АП&nbsp;№3)</em></span>
+														<span>12:55</span>
+														<span>13:55</span>
+														<span>14:55</span>
+														<span>16:00</span>
+														<span>17:00</span>
+														<span>17:55</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">«Спутник»:</strong>
+														<span>6:15</span>
+														<span>7:08</span>
+														<span>8:08</span>
+														<span>9:08</span>
+														<span>12:08</span>
+														<span>13:08</span>
+														<span>14:08</span>
+														<span>15:08</span>
+														<span>16:11</span>
+														<span>17:11</span>
+														<span>18:08</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Розановщина:</strong>
+														<span>6:25</span>
+														<span>7:20</span>
+														<span>8:25</span>
+														<span>9:25</span>
+														<span>12:25</span>
+														<span>13:25</span>
+														<span>14:25</span>
+														<span>15:25</span>
+														<span>16:25</span>
+														<span>17:25</span>
+														<span>18:25</span>
+													</div>
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Пл.&nbsp;Ленина:</strong>
+														<span>6:40</span>
+														<span>7:40</span>
+														<span>8:40</span>
+														<span>9:40</span>
+														<span>12:40</span>
+														<span>13:40</span>
+														<span>14:40</span>
+														<span>15:40</span>
+														<span>16:40</span>
+														<span>17:40</span>
+														<span>18:40</span>
+													</div>
+
+												</div>
+											</div>
+
+											<div id="tab2" class="tab-pane fade weekend">
+												<div class="row">
+
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Вокзал:</strong>
+														<span>6:10</span>
+														<span>6:55</span>
+														<span>7:55</span>
+														<span>8:55</span>
+														<span>9:55 <em>(до «Спутн.»)</em></span>
+														<span>10:55</span>
+														<span>11:55</span>
+														<span>12:55</span>
+														<span>13:55</span>
+														<span>14:55</span>
+														<span>15:55</span>
+														<span>16:55</span>
+														<span>17:55</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">«Спутник»:</strong>
+														<span>6:20</span>
+														<span>7:08</span>
+														<span>8:08</span>
+														<span>9:08</span>
+														<span>11:08</span>
+														<span>12:08</span>
+														<span>13:08</span>
+														<span>14:08</span>
+														<span>15:08</span>
+														<span>16:08</span>
+														<span>17:08</span>
+														<span>18:08</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Розановщина:</strong>
+														<span>6:30</span>
+														<span>7:20</span>
+														<span>8:25</span>
+														<span>9:25</span>
+														<span>11:25</span>
+														<span>12:25</span>
+														<span>13:25</span>
+														<span>14:25</span>
+														<span>15:25</span>
+														<span>16:25</span>
+														<span>17:25</span>
+														<span>18:25 <em>(до&nbsp;АП&nbsp;№3)</em></span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Пл.&nbsp;Ленина:</strong>
+														<span>6:40</span>
+														<span>7:40</span>
+														<span>8:40</span>
+														<span>9:40</span>
+														<span>10:40</span>
+														<span>11:40</span>
+														<span>12:40</span>
+														<span>13:40</span>
+														<span>14:40</span>
+														<span>15:40</span>
+														<span>16:40</span>
+														<span>17:40</span>
+														<span>18:40 <em>(до&nbsp;АП&nbsp;№3)</em></span>
+													</div>
+												</div>
+											</div>
+										</div>	                			
+									</div>
+
+
+								</div>
+							</div>
+							<div class="panel">
+								<h4 class="acdn-title">
+									<a data-toggle="collapse" data-parent="#accordion1" href="#collapse2"  class="collapsed"><span class="busname">3</span>МРЗ — вокзал — больница</a>
+								</h4>
+								<div id="collapse2" class="panel-collapse collapse">
+
+
+
+
+									<div class="tc-tabs">
+										<ul class="nav nav-tabs">
+											<li class="active daytype"><a data-toggle="tab" data-days="01234" href="#tab3">Будние дни</a></li>
+											<li class="daytype"><a data-toggle="tab" data-days="56" href="#tab4">Выходные дни</a></li>
+										</ul>
+										<div class="tab-content">
+											<div id="tab3" class="tab-pane fade in active">
+												<div class="row">
+
+
+													<div class="col-md-12 timelist">
+														<strong style="color: #b31a50;">Выделенные рейсы курсируют до остановки «Больница»</strong><br/>
+														<strong class="busstop">МРЗ:</strong>
+														<span>4:35 <em>(до&nbsp;АП&nbsp;№3)</em></span>
+														<span>5:25 <em>(до&nbsp;вокзала)</em></span>
+														<span><strong>6:15</strong></span>
+														<span><strong>6:40</strong></span>
+														<span><strong>7:11</strong></span>
+														<span><strong>7:43</strong></span>
+														<span><strong>8:20</strong></span>
+														<span>8:49 <em>(до&nbsp;вокзала)</em></span>
+														<span><strong>15:04</strong></span>
+														<span><strong>16:20</strong></span>
+														<span><strong>17:20</strong></span>
+														<span>18:20 <em>(до&nbsp;АП&nbsp;№3)</em></span>
+													</div>
+
+
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">АП&nbsp;№3:</strong>
+														<span><strong>6:27</strong></span>
+														<span><strong>6:52</strong></span>
+														<span><strong>7:23</strong></span>
+														<span><strong>7:55</strong></span>
+														<span><strong>8:31</strong></span>
+														<span>9:01</span>
+														<span><strong>15:16</strong></span>
+														<span><strong>16:32</strong></span>
+														<span><strong>17:32</strong></span>
+														<span>18:32</span>
+													</div>
+
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Вокзал (на остановку «Больница»):</strong>
+														<span><strong>6:29</strong></span>
+														<span><strong>6:55</strong></span>
+														<span><strong>7:26</strong></span>
+														<span><strong>7:58</strong></span>
+														<span><strong>8:35</strong></span>
+														<span><strong>15:20</strong></span>
+														<span><strong>16:36</strong></span>
+														<span><strong>17:36</strong></span>
+													</div>
+
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Больница:</strong>
+														<span>6:41</span>
+														<span>7:11</span>
+														<span>7:46 <em>(до&nbsp;дет.&nbsp;пол.)</em></span>
+														<span>8:13 <em>(до&nbsp;дет.&nbsp;пол.)</em></span>
+														<span>8:50 <em>(до&nbsp;вокзала)</em></span>
+														<span>15:42</span>
+														<span>16:52</span>
+														<span>17:52</span>
+													</div>
+
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Вокзал (на&nbsp;МРЗ):</strong>
+														<span>5:52</span>
+														<span>6:25</span>
+														<span>6:51</span>
+														<span>7:21 <em>(до&nbsp;дет.&nbsp;пол.)</em></span>
+														<span>7:56 <em>(до&nbsp;дет.&nbsp;пол.)</em></span>
+														<span>8:23 <em>(до&nbsp;дет.&nbsp;пол.)</em></span>
+														<span>15:52 <em>(до&nbsp;дет.&nbsp;пол.)</em></span>
+														<span>17:02</span>
+														<span>18:02</span>
+													</div>
+
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">АП&nbsp;№3:</strong>
+														<span>5:58</span>
+														<span>6:27</span>
+														<span>6:55</span>
+														<span>7:24</span>
+														<span>8:00</span>
+														<span>8:26</span>
+														<span>15:56</span>
+														<span>17:07</span>
+														<span>18:07</span>
+													</div>
+
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Детская поликлиника:</strong>
+														<span><strong>7:40</strong></span>
+														<span><strong>8:16</strong></span>
+														<span>8:45</span>
+														<span><strong>16:15</strong></span>
+													</div>
+
+												</div>
+											</div>
+
+											<div id="tab4" class="tab-pane fade weekend">
+												<div class="row">
+
+
+													<div class="col-md-12 timelist">
+														<strong style="color: #b31a50;">Выделенные рейсы курсируют до остановки «Больница»</strong><br/>
+														<strong class="busstop">МРЗ:</strong>
+														<span>4:35 <em>(до&nbsp;АП&nbsp;№3)</em></span>
+														<span>5:25 <em>(до&nbsp;вокзала)</em></span>
+														<span><strong>6:15</strong></span>
+														<span><strong>7:11</strong></span>
+														<span>8:20</span>
+														<span>15:10</span>
+														<span>15:55</span>
+														<span>16:57</span>
+														<span>18:10 <em>(до&nbsp;АП&nbsp;№3)</em></span>
+													</div>
+
+
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Вокзал (на остановку «Больница»):</strong>
+														<span><strong>6:31</strong></span>
+														<span><strong>7:27</strong></span>
+													</div>
+
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Больница:</strong>
+														<span>6:45</span>
+														<span>7:42</span>
+													</div>
+
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Вокзал (на&nbsp;МРЗ):</strong>
+														<span>6:03</span>
+														<span>6:55</span>
+														<span>7:52</span>
+														<span>8:42</span>
+														<span>14:35</span>
+														<span>15:30</span>
+														<span>16:35</span>
+														<span>17:40</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">АП&nbsp;№3:</strong>
+														<span>6:05</span>
+														<span>6:59</span>
+														<span>7:56</span>
+														<span>8:46</span>
+														<span>14:39</span>
+														<span>15:34</span>
+														<span>16:39</span>
+														<span>17:44</span>
+													</div>
+
+												</div>
+											</div>
+										</div>	                			
+									</div>
+
+
+
+								</div>
+							</div>
+							<div class="panel">
+								<h4 class="acdn-title">
+									<a data-toggle="collapse" data-parent="#accordion1" href="#collapse3"  class="collapsed"><span class="busname">4</span>Пл.&nbsp;Ленина — Чемеры</a>
+								</h4>
+								<div id="collapse3" class="panel-collapse collapse">
+
+
+
+
+									<div class="tc-tabs">
+										<ul class="nav nav-tabs">
+											<li class="active daytype"><a data-toggle="tab" data-days="01234" href="#tab5">Будние дни</a></li>
+											<li class="daytype"><a data-toggle="tab" data-days="56" href="#tab6">Выходные дни</a></li>
+										</ul>
+										<div class="tab-content">
+											<div id="tab5" class="tab-pane fade in active">
+												<div class="row">
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Пл.&nbsp;Ленина:</strong>
+														<span>6:50</span>
+														<span>7:35</span>
+													</div>
+													<div class="col-md-12 timelist">
+														<strong class="busstop">«Спутник»:</strong>
+														<span>12:35</span>
+														<span>13:45</span>
+														<span>15:40</span>
+														<span>16:40</span>
+														<span>17:45</span>
+													</div>
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Ул.&nbsp;Шоссейная:</strong>
+														<span>6:55</span>
+														<span>7:40</span>
+														<span>12:40</span>
+														<span>13:50</span>
+														<span>15:45</span>
+														<span>16:45</span>
+														<span>17:50</span>
+													</div>
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Станция перелив. крови:</strong>
+														<span>7:00</span>
+														<span>7:45</span>
+														<span>12:45</span>
+														<span>13:55</span>
+														<span>15:50</span>
+														<span>16:50</span>
+														<span>17:55</span>
+													</div>
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Чемеры:</strong>
+														<span>7:12</span>
+														<span>8:00</span>
+														<span>12:56</span>
+														<span>14:07</span>
+														<span>16:02</span>
+														<span>17:02</span>
+														<span>18:07</span>
+													</div>
+													<div class="col-md-12 timelist">
+														<strong class="busstop">МРЗ:</strong>
+														<span>7:24</span>
+														<span>8:12</span>
+														<span>13:08</span>
+														<span>14:20</span>
+														<span>16:13</span>
+														<span>17:14</span>
+														<span>18:19</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Ул.&nbsp;Шоссейная:</strong>
+														<span>7:28</span>
+														<span>8:17</span>
+														<span>13:13</span>
+														<span>14:25</span>
+														<span>16:18</span>
+														<span>17:19</span>
+														<span>18:24</span>
+													</div>
+
+
+												</div>
+											</div>
+
+											<div id="tab6" class="tab-pane fade weekend">
+												<div class="row">
+													<div class="col-md-12 timelist">
+														<strong style="color: #b31a50;">Суббота</strong>
+													</div>
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Пл.&nbsp;Ленина:</strong>
+														<span>6:50</span>
+														<span>7:35</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">«Спутник»:</strong>
+														<span>12:35</span>
+														<span>13:50</span>
+														<span>15:30</span>
+														<span>16:30</span>
+														<span>17:30</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Ул.&nbsp;Шоссейная:</strong>
+														<span>6:55</span>
+														<span>7:40</span>
+														<span>12:40</span>
+														<span>13:55</span>
+														<span>15:35</span>
+														<span>16:35</span>
+														<span>17:35</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Ст.&nbsp;перелив. крови:</strong>
+														<span>7:00</span>
+														<span>7:45</span>
+														<span>12:45</span>
+														<span>14:00</span>
+														<span>15:40</span>
+														<span>16:40</span>
+														<span>17:40</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Чемеры:</strong>
+														<span>7:12</span>
+														<span>8:00</span>
+														<span>12:56</span>
+														<span>14:20</span>
+														<span>16:00</span>
+														<span>17:00</span>
+														<span>18:00</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">МРЗ:</strong>
+														<span>7:24</span>
+														<span>8:12</span>
+														<span>13:08</span>
+														<span>14:33</span>
+														<span>16:12</span>
+														<span>17:12</span>
+														<span>18:12</span>
+													</div>
+
+
+
+													<div class="col-md-12 timelist">
+														<br/><strong style="color: #b31a50;">Воскресенье</strong>
+													</div>
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Пл.&nbsp;Ленина:</strong>
+														<span>7:35</span>
+														<span>8:35</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">«Спутник»:</strong>
+														<span>12:35</span>
+														<span>13:50</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Ул.&nbsp;Шоссейная:</strong>
+														<span>7:40</span>
+														<span>8:40</span>
+														<span>12:40</span>
+														<span>13:55</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Ст.&nbsp;перелив. крови:</strong>
+														<span>7:45</span>
+														<span>8:45</span>
+														<span>12:45</span>
+														<span>14:00</span>
+													</div>
+
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Чемеры:</strong>
+														<span>8:00</span>
+														<span>8:57</span>
+														<span>12:56</span>
+														<span>14:20</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">МРЗ:</strong>
+														<span>8:12</span>
+														<span>9:09</span>
+														<span>13:08</span>
+														<span>14:33</span>
+													</div>
+												</div>
+											</div>
+										</div>	                			
+									</div>
+
+
+
+								</div>
+							</div>
+							<div class="panel">
+								<h4 class="acdn-title">
+									<a data-toggle="collapse" data-parent="#accordion1" href="#collapse4"  class="collapsed"><span class="busname">5</span>ул.&nbsp;Подлесная (Кр.&nbsp;Парт.) —  детская поликлиника — СГПТК</a>
+								</h4>
+								<div id="collapse4" class="panel-collapse collapse">
+
+
+
+
+									<div class="tc-tabs">
+										<ul class="nav nav-tabs">
+											<li class="active daytype"><a data-toggle="tab" data-days="01234" href="#tab7">Будние дни</a></li>
+											<li class="daytype"><a data-toggle="tab" data-days="56" href="#tab8">Выходные дни</a></li>
+										</ul>
+										<div class="tab-content">
+											<div id="tab7" class="tab-pane fade in active">
+												<div class="row">
+													<div class="col-md-12 timelist">
+														<strong style="color: #b31a50;">Выделены рейсы без заезда на остановку «Детская поликлиника»</strong><br/>
+														<strong class="busstop">Ул.&nbsp;Подлесная:</strong>
+														<span>6:13</span>
+														<span><strong>6:35</strong></span>
+														<span>7:12</span>
+														<span><strong>7:35</strong></span>
+														<span><strong>8:10</strong></span>
+														<span>8:52 <em>(до&nbsp;«Спутн.»)</em></span>
+														<span>10:05</span>
+														<span>11:17 <em>(до&nbsp;«Спутн.»)</em></span>
+														<span>12:32</span>
+														<span>13:42</span>
+														<span>14:12</span>
+														<span>15:22</span>
+														<span>16:35</span>
+														<span>17:07</span>
+														<span>17:42</span>
+														<span>18:15</span>
+														<span>18:50</span>
+														<span><strong>19:22</strong></span>
+														<span>19:56 <em>(до&nbsp;«Спутн.»)</em></span>
+													</div>
+
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Ул.&nbsp;Кр.&nbsp;Партизан (кладбище):</strong>
+														<span>9:30</span>
+														<span>10:35 <em>(до&nbsp;«Спутн.»)</em></span>
+														<span>14:47</span>
+														<span>15:57</span>
+														<span>18:15 <em>(с&nbsp;15.04 по&nbsp;15.10)</em></span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">«Спутник»:</strong>
+														<span><strong>5:55</strong></span>
+														<span>6:26</span>
+														<span><strong>6:48</strong></span>
+														<span>7:25</span>
+														<span><strong>7:50</strong></span>
+														<span><strong>8:20</strong></span>
+														<span>9:10</span>
+														<span>9:43</span>
+														<span>10:20</span>
+														<span>11:40</span>
+														<span>12:45</span>
+														<span>13:55</span>
+														<span>14:25</span>
+														<span>15:00</span>
+														<span>15:35</span>
+														<span>16:12</span>
+														<span>16:45</span>
+														<span>17:20</span>
+														<span>17:55</span>
+														<span>18:28</span>
+														<span>19:05</span>
+														<span><strong>19:35</strong></span>
+													</div>
+
+
+													<div class="col-md-12 timelist">
+														<br/><strong style="color: #b31a50;">Выделенные рейсы курсируют до кладбища</strong><br/>
+														<strong class="busstop">СГПТК:</strong>
+														<span>6:06</span>
+														<span>6:40</span>
+														<span>7:08</span>
+														<span>7:42</span>
+														<span>8:14</span>
+														<span>8:59</span>
+														<span>9:33</span>
+														<span><strong>10:03</strong></span>
+														<span>10:40</span>
+														<span>12:01</span>
+														<span>13:05</span>
+														<span><strong>14:15</strong></span>
+														<span>14:49</span>
+														<span><strong>15:24</strong></span>
+														<span>16:04</span>
+														<span>16:31</span>
+														<span>17:05</span>
+														<span>17:41</span>
+														<span>18:14</span>
+														<span>18:52</span>
+														<span>19:25</span>
+														<span>19:55 <em>(до&nbsp;пл.&nbsp;Лен.)</em></span>
+													</div>
+
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Дет.&nbsp;поликлиника:</strong>
+														<span>8:18</span>
+														<span>9:03</span>
+														<span>9:38</span>
+														<span>10:07</span>
+														<span>10:45</span>
+														<span>12:05</span>
+														<span>13:09</span>
+														<span>14:20</span>
+														<span>14:53</span>
+														<span>15:29</span>
+														<span>16:06</span>
+														<span>16:35</span>
+														<span>17:09</span>
+														<span>17:45</span>
+														<span>18:18</span>
+														<span>18:56</span>
+														<span>19:30</span>
+														<span>20:00 <em>(до&nbsp;пл.&nbsp;Лен.)</em></span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">СШ&nbsp;№10:</strong>
+														<span>6:14</span>
+														<span>6:48</span>
+														<span>7:16</span>
+														<span>7:50</span>
+														<span>8:25</span>
+														<span><strong>9:10</strong></span>
+														<span>9:45</span>
+														<span><strong>10:14</strong></span>
+														<span>10:52</span>
+														<span>12:12</span>
+														<span>13:16</span>
+														<span><strong>14:27</strong></span>
+														<span>15:00</span>
+														<span><strong>15:35</strong></span>
+														<span>16:11</span>
+														<span>16:42</span>
+														<span>17:15</span>
+														<span>17:52</span>
+														<span>18:25</span>
+														<span>19:03</span>
+														<span>19:37</span>
+														<span>20:05 <em>(до&nbsp;пл.&nbsp;Лен.)</em></span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Пл.&nbsp;Ленина:</strong>
+														<span>6:19</span>
+														<span>6:53</span>
+														<span>7:21</span>
+														<span>7:54</span>
+														<span>8:30</span>
+														<span><strong>9:15</strong></span>
+														<span>9:50</span>
+														<span><strong>10:19</strong></span>
+														<span>10:57</span>
+														<span>12:17</span>
+														<span>13:21</span>
+														<span>13:53</span>
+														<span><strong>14:31</strong></span>
+														<span>15:05</span>
+														<span><strong>15:40</strong></span>
+														<span>16:20</span>
+														<span>16:47</span>
+														<span>17:23</span>
+														<span>17:57</span>
+														<span>18:30</span>
+														<span>19:08</span>
+														<span>19:42</span>
+													</div>
+
+
+												</div>
+											</div>
+
+											<div id="tab8" class="tab-pane fade weekend">
+												<div class="row">
+													<div class="col-md-12 timelist">
+														<strong style="color: #b31a50;">По субботам выделенные рейсы курсируют через детскую поликлинику</strong><br/>
+														<strong class="busstop">Ул.&nbsp;Подлесная:</strong>
+														<span>6:30</span>
+														<span>7:25</span>
+														<span>9:15 <em>(до&nbsp;«Спутн.»)</em></span>
+														<span><strong>10:32</strong></span>
+														<span><strong>12:32</strong></span>
+														<span>14:30</span>
+														<span>16:30</span>
+														<span>17:32</span>
+														<span>18:27 <em>(до&nbsp;«Спутн.»)</em></span>
+														<span>19:20</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Ул.&nbsp;Кр.&nbsp;Партизан (кладбище):</strong>
+														<span>8:22</span>
+														<span>11:30</span>
+														<span>13:30</span>
+														<span>15:30</span>
+														<span>17:32 <em>(с&nbsp;01.04 по&nbsp;31.10)</em></span>
+														<span>19:20 <em>(с&nbsp;15.04 по&nbsp;30.09)</em></span>
+													</div>
+
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">«Спутник»:</strong>
+														<span>5:45</span>
+														<span>6:42</span>
+														<span>7:37</span>
+														<span><strong>8:34</strong></span>
+														<span><strong>10:44</strong></span>
+														<span><strong>11:42</strong></span>
+														<span><strong>12:44</strong></span>
+														<span><strong>13:42</strong></span>
+														<span>14:42</span>
+														<span>15:42</span>
+														<span>16:42</span>
+														<span>17:44</span>
+														<span>19:30</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">СШ №10:</strong>
+														<span>5:50</span>
+														<span>6:47</span>
+														<span>7:42</span>
+														<span><strong>8:39</strong></span>
+														<span><strong>10:49</strong></span>
+														<span><strong>11:47</strong></span>
+														<span><strong>12:49</strong></span>
+														<span><strong>13:47</strong></span>
+														<span>14:47</span>
+														<span>15:47</span>
+														<span>16:47</span>
+														<span>17:49</span>
+														<span>19:35</span>
+													</div>
+
+
+													<div class="col-md-12 timelist">
+														<br/><strong style="color: #b31a50;">Выделенные рейсы курсируют до кладбища</strong><br/>
+														<strong class="busstop">СГПТК:</strong>
+														<span>6:02</span>
+														<span>6:59</span>
+														<span><strong>7:57</strong></span>
+														<span>8:50</span>
+														<span><strong>11:01</strong></span>
+														<span>12:00</span>
+														<span><strong>13:01</strong></span>
+														<span>14:00</span>
+														<span><strong>15:00</strong></span>
+														<span>16:00</span>
+														<span>17:05</span>
+														<span>18:00</span>
+														<span>19:50 <em>(до&nbsp;пл.&nbsp;Лен.)</em></span>
+													</div>
+
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Дет.&nbsp;поликлиника:</strong>
+														<span>11:05</span>
+														<span>12:05</span>
+														<span>13:05</span>
+														<span>14:04</span>
+														<span>15:04</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">СШ&nbsp;№10:</strong>
+														<span>6:10</span>
+														<span>7:07</span>
+														<span><strong>8:04</strong></span>
+														<span>8:57</span>
+														<span><strong>11:12</strong></span>
+														<span>12:12</span>
+														<span><strong>13:12</strong></span>
+														<span>14:11</span>
+														<span><strong>15:10</strong></span>
+														<span>16:09</span>
+														<span>17:14</span>
+														<span>18:09</span>
+														<span>19:59 <em>(до&nbsp;пл.&nbsp;Лен.)</em></span>
+													</div>
+
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Пл.&nbsp;Ленина:</strong>
+														<span>6:15</span>
+														<span>7:12</span>
+														<span><strong>8:09</strong></span>
+														<span>9:02</span>
+														<span>10:18</span>
+														<span><strong>11:17</strong></span>
+														<span>12:17</span>
+														<span><strong>13:17</strong></span>
+														<span>14:16</span>
+														<span><strong>15:15</strong></span>
+														<span>16:14</span>
+														<span>17:19</span>
+														<span>18:14</span>
+														<span>19:09</span>
+													</div>
+
+												</div>
+											</div>
+										</div>	                			
+									</div>
+
+
+
+								</div>
+							</div>
+							<div class="panel">
+								<h4 class="acdn-title">
+									<a data-toggle="collapse" data-parent="#accordion1" href="#collapse5"  class="collapsed"><span class="busname">7</span>АПТ — пл.&nbsp;Ленина</a>
+								</h4>
+								<div id="collapse5" class="panel-collapse collapse">
+
+									<div class="tc-tabs">
+										<ul class="nav nav-tabs">
+											<li class="active daytype"><a data-toggle="tab" data-days="01234" href="#tab9">Будние дни</a></li>
+											<li class="daytype"><a data-toggle="tab" data-days="56" href="#tab10">Выходные дни</a></li>
+										</ul>
+										<div class="tab-content">
+											<div id="tab9" class="tab-pane fade in active">
+												<div class="row">
+													<div class="col-md-12 timelist">
+													<br/><strong style="color: #b31a50;">Выделенные рейсы в летний период не курсируют</strong><br/>
+														<strong class="busstop">РАПТ:</strong>
+														<span>6:03</span>
+														<span><strong>6:20</strong></span>
+														<span>6:43</span>
+														<span><strong>7:05</strong></span>
+														<span>7:20</span>
+														<span><strong>7:40</strong></span>
+														<span>8:10</span>
+														<span><strong>8:28 <em>(до&nbsp;пл.&nbsp;Лен.)</em></strong></span>
+
+														<span>8:43 <em>(до&nbsp;пл.&nbsp;Лен.)</em></span>
+														<span>9:30 <em>(до&nbsp;пл.&nbsp;Лен.)</em></span>
+														<span>14:44</span>
+														<span>15:32</span>
+														<span>16:13</span>
+														<span>17:10</span>
+														<span>17:57</span>
+														<span>18:40</span>
+														<span>19:25 <em>(до&nbsp;пл.&nbsp;Лен.)</em></span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Пл.&nbsp;Ленина:</strong>
+														<span>6:19</span>
+														<span><strong>6:41</strong></span>
+														<span>6:59</span>
+														<span><strong>7:22</strong></span>
+														<span>7:36</span>
+														<span><strong>7:55</strong></span>
+														<span>8:25</span>
+														<span>9:06</span>
+														<span>14:19</span>
+														<span>15:01</span>
+														<span>15:48</span>
+														<span>16:30</span>
+														<span>17:26</span>
+														<span>18:15</span>
+														<span>18:59</span>
+													</div>
+
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">«Спутник»:</strong>
+														<span>5:50</span>
+														<span><strong>6:03</strong></span>
+														<span>6:25</span>
+														<span><strong>6:43</strong></span>
+														<span>7:00</span>
+														<span><strong>7:25</strong></span>
+														<span>7:50</span>
+														<span><strong>8:08</strong></span>
+														<span>8:26</span>
+														<span>9:08</span>
+														<span>14:21</span>
+														<span>15:10</span>
+														<span>15:51</span>
+														<span>16:40</span>
+														<span>17:40</span>
+														<span>18:17</span>
+														<span>19:10</span>
+														<span>19:40 <em>(Слоним&nbsp;— Жировичи)</em></span>
+													</div>
+
+
+												</div>
+											</div>
+
+											<div id="tab10" class="tab-pane fade weekend">
+												<div class="row">
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Пл.&nbsp;Ленина:</strong>
+														<span>6:19</span>
+														<span>6:57</span>
+														<span>7:36</span>
+														<span>8:21</span>
+														<span>9:01</span>
+														<span>12:31</span>
+														<span>13:16</span>
+														<span>14:06</span>
+														<span>15:25</span>
+														<span>16:11</span>
+														<span>17:06</span>
+														<span>17:49</span>
+														<span>18:30</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">«Спутник»:</strong>
+														<span>6:23</span>
+														<span>7:00</span>
+														<span>7:42</span>
+														<span>8:25</span>
+														<span>9:05</span>
+														<span>11:05</span>
+														<span>11:50</span>
+														<span>12:35</span>
+														<span>13:25</span>
+														<span>14:10</span>
+														<span>15:30</span>
+														<span>16:25</span>
+														<span>17:10</span>
+														<span>17:53</span>
+														<span>18:33</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">РАПТ:</strong>
+														<span>6:03</span>
+														<span>6:41</span>
+														<span>7:20</span>
+														<span>8:05</span>
+														<span>8:45</span>
+														<span>9:30 <em>(до&nbsp;пл.&nbsp;Лен.)</em></span>
+														<span>11:27</span>
+														<span>12:15</span>
+														<span>13:00</span>
+														<span>13:50</span>
+														<span>14:32</span>
+														<span>15:55</span>
+														<span>16:50</span>
+														<span>17:32</span>
+														<span>18:14</span>
+														<span>18:54 <em>(до&nbsp;пл.&nbsp;Лен.)</em></span>
+													</div>
+
+												</div>
+											</div>
+										</div>	                			
+									</div>
+
+
+
+								</div>
+							</div>
+							<div class="panel">
+								<h4 class="acdn-title">
+									<a data-toggle="collapse" data-parent="#accordion1" href="#collapse6"  class="collapsed"><span class="busname">8</span>Пл.&nbsp;Ленина — ул.&nbsp;Звездная (с&nbsp;заездом на&nbsp;больницу)</a>
+								</h4>
+								<div id="collapse6" class="panel-collapse collapse">
+
+
+
+
+									<div class="tc-tabs">
+										<ul class="nav nav-tabs">
+											<li class="active daytype"><a data-toggle="tab" data-days="01234" href="#tab11">Будние дни</a></li>
+											<li class="daytype"><a data-toggle="tab" data-days="56" href="#tab12">Выходные дни</a></li>
+										</ul>
+										<div class="tab-content">
+											<div id="tab11" class="tab-pane fade in active">
+												<div class="row">
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Пл.&nbsp;Ленина:</strong>
+														<span>5:35</span>
+														<span>6:23</span>
+														<span>7:25</span>
+														<span>8:23</span>
+														<span>10:50</span>
+														<span>12:10</span>
+														<span>13:22</span>
+														<span>14:32</span>
+														<span>15:42</span>
+														<span>16:45</span>
+														<span>17:55</span>
+														<span>19:10</span>
+														<span>20:05</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Вокзал:</strong>
+														<span>5:40</span>
+														<span>6:28</span>
+														<span>7:30</span>
+														<span>8:28</span>
+														<span>10:55</span>
+														<span>12:15</span>
+														<span>13:27</span>
+														<span>14:37</span>
+														<span>15:47</span>
+														<span>16:50</span>
+														<span>18:00</span>
+														<span>19:15</span>
+														<span>20:10</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Ул. Звездная:</strong>
+														<span><strong>5:55 <em>(без заезда на остановку «Больница»)</em></strong></span>
+														<span>6:53</span>
+														<span>7:50</span>
+														<span>8:58</span>
+														<span>11:15</span>
+														<span>12:36</span>
+														<span>13:48</span>
+														<span>15:05</span>
+														<span>16:08</span>
+														<span>17:13</span>
+														<span>18:20</span>
+														<span>19:33</span>
+														<span>20:30</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Больница:</strong>
+														<span>7:00</span>
+														<span>7:59</span>
+														<span>9:07</span>
+														<span>11:24</span>
+														<span>12:44</span>
+														<span>13:57</span>
+														<span>15:12</span>
+														<span>16:15</span>
+														<span>17:22</span>
+														<span>18:29</span>
+														<span>19:41</span>
+														<span>20:39</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Вокзал:</strong>
+														<span>6:11</span>
+														<span>7:10</span>
+														<span>8:09</span>
+														<span>9:17</span>
+														<span>11:34</span>
+														<span>12:54</span>
+														<span>14:07</span>
+														<span>15:22</span>
+														<span>16:25</span>
+														<span>17:32</span>
+														<span>18:39</span>
+														<span>19:51</span>
+														<span>20:49</span>
+													</div>
+
+												</div>
+											</div>
+
+											<div id="tab12" class="tab-pane fade weekend">
+												<div class="row">
+													<div class="col-md-12 timelist">
+														<strong style="color: #b31a50;">Выделены рейсы без заезда на остановку «Больница»</strong><br/>
+														<strong class="busstop">Пл.&nbsp;Ленина:</strong>
+														<span><strong>5:35</strong></span>
+														<span><strong>6:35</strong></span>
+														<span>7:30</span>
+														<span>8:40</span>
+														<span>10:18</span>
+														<span>11:15</span>
+														<span>12:30</span>
+														<span>13:45</span>
+														<span>15:00</span>
+														<span>16:15</span>
+														<span>17:15</span>
+														<span>18:34</span>
+														<span>19:40</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Вокзал:</strong>
+														<span><strong>5:40</strong></span>
+														<span>6:40</span>
+														<span>7:35</span>
+														<span>8:45</span>
+														<span>10:23</span>
+														<span>11:20</span>
+														<span>12:35</span>
+														<span>13:50</span>
+														<span>15:05</span>
+														<span>16:20</span>
+														<span>17:20</span>
+														<span>18:39</span>
+														<span>19:45</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Ул.&nbsp;Звездная:</strong>
+														<span><strong>5:55</strong></span>
+														<span>7:00</span>
+														<span>7:57</span>
+														<span>9:05</span>
+														<span>10:43</span>
+														<span>11:43</span>
+														<span>12:58</span>
+														<span>14:13</span>
+														<span>15:38</span>
+														<span>16:43</span>
+														<span>17:50</span>
+														<span>19:00</span>
+														<span>20:02</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Больница (на город):</strong>
+														<span>7:07</span>
+														<span>8:11</span>
+														<span>9:12</span>
+														<span>10:50</span>
+														<span>11:50</span>
+														<span>13:05</span>
+														<span>14:20</span>
+														<span>15:45</span>
+														<span>16:50</span>
+														<span>17:57</span>
+														<span>19:13</span>
+														<span>20:09</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Вокзал:</strong>
+														<span>6:10</span>
+														<span>7:17</span>
+														<span>8:21</span>
+														<span>9:22</span>
+														<span>11:00</span>
+														<span>12:00</span>
+														<span>13:15</span>
+														<span>14:30</span>
+														<span>15:55</span>
+														<span>17:00</span>
+														<span>18:07</span>
+														<span>19:17</span>
+														<span>20:19</span>
+													</div>
+
+												</div>
+											</div>
+										</div>	                			
+									</div>
+
+
+
+								</div>
+							</div>
+
+
+							<div class="panel">
+								<h4 class="acdn-title">
+									<a data-toggle="collapse" data-parent="#accordion1" href="#collapse7"  class="collapsed"><span class="busname">10</span>ул.&nbsp;Барановичская — пл.&nbsp;Ленина</a>
+								</h4>
+								<div id="collapse7" class="panel-collapse collapse">
+
+
+
+
+									<div class="tc-tabs">
+										<ul class="nav nav-tabs">
+											<li class="active daytype"><a data-toggle="tab" data-days="01234" href="#tab13">Будние дни</a></li>
+											<li class="daytype"><a data-toggle="tab" data-days="56" href="#tab14">Выходные дни</a></li>
+										</ul>
+										<div class="tab-content">
+											<div id="tab13" class="tab-pane fade in active">
+												<div class="row">
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Пл.&nbsp;Ленина:</strong>
+														<span>6:25</span>
+														<span>6:55</span>
+														<span>7:38</span>
+														<span>9:15</span>
+														<span>11:20</span>
+														<span>12:30</span>
+														<span>13:40</span>
+														<span>15:10</span>
+														<span>16:22</span>
+														<span>17:30</span>
+														<span>18:30</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Вокзал:</strong>
+														<span>6:30</span>
+														<span>7:01</span>
+														<span>7:42</span>
+														<span>9:21</span>
+														<span>11:26</span>
+														<span>12:36</span>
+														<span>13:46</span>
+														<span>15:16</span>
+														<span>16:23</span>
+														<span>17:35</span>
+														<span>18:36</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Ул.&nbsp;Звездная:</strong>
+														<span>6:41</span>
+														<span>7:15</span>
+														<span>7:50</span>
+														<span>9:32</span>
+														<span>11:42</span>
+														<span>12:50</span>
+														<span>14:00</span>
+														<span>15:30</span>
+														<span>16:36</span>
+														<span>17:49</span>
+														<span>18:50</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Ул.&nbsp;Барановичская:</strong>
+														<span>5:48</span>
+														<span>6:52</span>
+														<span>7:28</span>
+														<span>8:20</span>
+														<span>9:45</span>
+														<span>11:56</span>
+														<span>13:05</span>
+														<span>14:25</span>
+														<span>15:43</span>
+														<span>17:00</span>
+														<span>18:00</span>
+														<span>19:05</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Ул.&nbsp;Колхозная:</strong>
+														<span>5:56</span>
+														<span>7:00</span>
+														<span>7:45</span>
+														<span>8:29</span>
+														<span>9:53</span>
+														<span>12:03</span>
+														<span>13:13</span>
+														<span>14:33</span>
+														<span>15:53</span>
+														<span>17:08</span>
+														<span>18:08</span>
+														<span>19:15</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Вокзал:</strong>
+														<span>6:11</span>
+														<span>7:14</span>
+														<span>7:56</span>
+														<span>8:44</span>
+														<span>10:08</span>
+														<span>12:19</span>
+														<span>13:28</span>
+														<span>14:48</span>
+														<span>16:10</span>
+														<span>17:23</span>
+														<span>18:20</span>
+														<span>19:28</span>
+													</div>
+												</div>
+											</div>
+
+											<div id="tab14" class="tab-pane fade weekend">
+												<div class="row">
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Пл.&nbsp;Ленина:</strong>
+														<span>7:50</span>
+														<span>9:10</span>
+														<span>11:30</span>
+														<span>12:50</span>
+														<span>14:00</span>
+														<span>15:20</span>
+														<span>16:35</span>
+														<span>17:49</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Вокзал:</strong>
+														<span>7:56</span>
+														<span>9:16</span>
+														<span>11:36</span>
+														<span>12:56</span>
+														<span>14:06</span>
+														<span>15:25</span>
+														<span>16:41</span>
+														<span>17:55</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Ул.&nbsp;Звездная:</strong>
+														<span>8:12</span>
+														<span>9:32</span>
+														<span>11:52</span>
+														<span>13:12</span>
+														<span>14:22</span>
+														<span>15:41</span>
+														<span>16:57</span>
+														<span>18:11</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Ул.&nbsp;Барановичская:</strong>
+														<span>7:15</span>
+														<span>8:23</span>
+														<span>9:50</span>
+														<span>12:10</span>
+														<span>13:25</span>
+														<span>14:32</span>
+														<span>16:00</span>
+														<span>17:10</span>
+														<span>18:21 <em>(до&nbsp;пл.&nbsp;Лен.)</em></span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Ул.&nbsp;Колхозная:</strong>
+														<span>7:24</span>
+														<span>8:28</span>
+														<span>9:58</span>
+														<span>12:18</span>
+														<span>13:33</span>
+														<span>14:40</span>
+														<span>16:08</span>
+														<span>17:18</span>
+														<span>18:28</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Вокзал:</strong>
+														<span>7:39</span>
+														<span>8:47</span>
+														<span>10:14</span>
+														<span>12:34</span>
+														<span>13:49</span>
+														<span>14:55</span>
+														<span>16:23</span>
+														<span>17:34</span>
+														<span>18:43 <em>(до&nbsp;пл.&nbsp;Лен.)</em></span>
+													</div>
+												</div>
+											</div>
+										</div>	                			
+									</div>
+
+
+
+								</div>
+							</div>
+							<div class="panel">
+								<h4 class="acdn-title">
+									<a data-toggle="collapse" data-parent="#accordion1" href="#collapse8"  class="collapsed"><span class="busname">11</span>РАПТ — маг.&nbsp;«Дружба»</a>
+								</h4>
+								<div id="collapse8" class="panel-collapse collapse">
+
+
+
+
+									<div class="tc-tabs">
+										<ul class="nav nav-tabs">
+											<li class="active daytype"><a data-toggle="tab" data-days="01234" href="#tab15">Будние дни</a></li>			
+										</ul>
+										<div class="tab-content">
+											<div id="tab15" class="tab-pane fade in active">
+												<div class="row">
+													<div class="col-md-12 timelist">
+														<strong class="busstop">РАПТ:</strong>
+														<span>5:50 <em>(с&nbsp;АРЗ)</em></span>
+														<span>6:36</span>
+														<span>7:34</span>
+														<span>9:00</span>
+														<span>10:10</span>
+														<span>11:30</span>
+														<span>12:54</span>
+														<span>14:10</span>
+														<span>15:15</span>
+														<span>16:25</span>
+														<span>17:33</span>
+														<span>19:00 <em>(до&nbsp;«Спутн.»)</em></span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Пл.&nbsp;Ленина (на&nbsp;Энку):</strong>
+														<span>5:53</span>
+														<span>6:49</span>
+														<span>7:47</span>
+														<span>9:12</span>
+														<span>10:22</span>
+														<span>11:42</span>
+														<span>13:08</span>
+														<span>14:24</span>
+														<span>15:29</span>
+														<span>16:39</span>
+														<span>17:47</span>
+														<span>19:14 <em>(до&nbsp;«Спутн.»)</em></span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Рынок «Коссовский»:</strong>
+														<span>6:00</span>
+														<span>7:01</span>
+														<span>8:04</span>
+														<span>9:25</span>
+														<span>10:35</span>
+														<span>11:35</span>
+														<span>13:21</span>
+														<span>14:37</span>
+														<span>15:42</span>
+														<span>16:52</span>
+														<span>18:00</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Маг.&nbsp;«Дружба»:</strong>
+														<span>6:05</span>
+														<span>7:07</span>
+														<span>8:10</span>
+														<span>9:30</span>
+														<span>10:40</span>
+														<span>12:00 <em>(до&nbsp;пл.&nbsp;Лен.)</em></span>
+														<span>13:34</span>
+														<span>14:41</span>
+														<span>15:47</span>
+														<span>16:58</span>
+														<span>18:25</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Пл.&nbsp;Ленина (на&nbsp;РАПТ):</strong>
+														<span>6:19</span>
+														<span>7:20</span>
+														<span>8:22</span>
+														<span>9:42</span>
+														<span>10:52</span>
+														<span>12:33</span>
+														<span>13:46</span>
+														<span>14:53</span>
+														<span>15:59</span>
+														<span>17:10</span>
+														<span>18:37</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">«Спутник» (на&nbsp;РАПТ):</strong>
+														<span>12:35</span>
+														<span>13:50</span>
+														<span>14:56</span>
+														<span>16:03</span>
+														<span>17:13</span>
+														<span>18:40</span>
+													</div>
+												</div>
+											</div>
+										</div>	                			
+									</div>
+
+
+
+								</div>
+							</div>
+							<div class="panel">
+								<h4 class="acdn-title">
+									<a data-toggle="collapse" data-parent="#accordion1" href="#collapse9"  class="collapsed"><span class="busname">12</span>Маг.&nbsp;«Дружба» — больница</a>
+								</h4>
+								<div id="collapse9" class="panel-collapse collapse">
+
+									<div class="tc-tabs">
+										<ul class="nav nav-tabs">
+											<li class="active daytype"><a data-toggle="tab" data-days="01234" href="#tab17">Будние дни</a></li>
+											<li class="daytype"><a data-toggle="tab" data-days="56" href="#tab18">Выходные дни</a></li>
+										</ul>
+										<div class="tab-content">
+											<div id="tab17" class="tab-pane fade in active">
+												<div class="row">
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Кленовая:</strong>
+														<span>7:15</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Маг.&nbsp;«Дружба»:</strong>
+														<span>6:48</span>
+														<span>7:20</span>
+														<span>8:00</span>
+														<span>8:30</span>
+														<span>9:13</span>
+														<span>9:50</span>
+														<span>10:24 <em>(до&nbsp;пл.&nbsp;Лен.)</em></span>
+														<span>11:00</span>
+														<span>11:33</span>
+														<span>12:43</span>
+														<span>13:57</span>
+														<span>15:05</span>
+														<span>15:41</span>
+														<span>16:15</span>
+														<span>17:08</span>
+														<span>17:28</span>
+														<span>18:15</span>
+														<span>18:34</span>
+														<span>19:26</span>
+														<span>19:40 <em>(до&nbsp;пл.&nbsp;Лен.)</em></span>
+														<span>20:45 <em>(до&nbsp;вокзала)</em></span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">СШ&nbsp;№10:</strong>
+														<span>6:54</span>
+														<span>7:27</span>
+														<span>8:07</span>
+														<span>8:37</span>
+														<span>9:20</span>
+														<span>9:57</span>
+														<span>10:31 <em>(до&nbsp;пл.&nbsp;Лен.)</em></span>
+														<span>11:07</span>
+														<span>11:40</span>
+														<span>12:50</span>
+														<span>14:04</span>
+														<span>15:12</span>
+														<span>15:47</span>
+														<span>16:21</span>
+														<span>17:14</span>
+														<span>17:34</span>
+														<span>18:21</span>
+														<span>18:41</span>
+														<span>19:32</span>
+														<span>19:47 <em>(до&nbsp;пл.&nbsp;Лен.)</em></span>
+														<span>20:52 <em>(до&nbsp;вокзала)</em></span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Пл.&nbsp;Ленина:</strong>
+														<span>6:59</span>
+														<span>7:32</span>
+														<span>8:12</span>
+														<span>8:42</span>
+														<span>9:25</span>
+														<span>10:02</span>
+														<span>11:12</span>
+														<span>11:45</span>
+														<span>12:55</span>
+														<span>14:09</span>
+														<span>15:17</span>
+														<span>15:52</span>
+														<span>16:26</span>
+														<span>17:19</span>
+														<span>17:39</span>
+														<span>18:27</span>
+														<span>18:46</span>
+														<span>19:43</span>
+														<span>20:57 <em>(до&nbsp;вокзала)</em></span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Больница:</strong>
+														<span>6:20 <em>(с&nbsp;Гагарина)</em></span>
+														<span>6:48 <em>(с&nbsp;Чкалова)</em></span>
+														<span>7:20</span>
+														<span>7:52</span>
+														<span>8:35</span>
+														<span>9:10</span>
+														<span>9:45</span>
+														<span>10:22</span>
+														<span>11:32 <em>(до&nbsp;«Спутн.»)</em></span>
+														<span>12:05</span>
+														<span>13:20</span>
+														<span>14:28</span>
+														<span>15:37</span>
+														<span>16:08</span>
+														<span>16:50</span>
+														<span>17:35</span>
+														<span>18:00</span>
+														<span>18:50</span>
+														<span>19:07</span>
+														<span>20:10</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">«Спутник»:</strong>
+														<span>6:27</span>
+														<span>6:52</span>
+														<span>7:36</span>
+														<span>8:08</span>
+														<span>8:51</span>
+														<span>9:26</span>
+														<span>10:02</span>
+														<span>10:38</span>
+														<span>11:12</span>
+														<span>12:21</span>
+														<span>13:36</span>
+														<span>14:44</span>
+														<span>15:20</span>
+														<span>15:53</span>
+														<span>16:30</span>
+														<span>17:06</span>
+														<span>17:51</span>
+														<span>18:16</span>
+														<span>19:06</span>
+														<span>19:22</span>
+														<span>20:26</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Рынок «Коссовский»:</strong>
+														<span>6:43</span>
+														<span>7:10</span>
+														<span>7:53</span>
+														<span>8:26</span>
+														<span>9:09</span>
+														<span>9:44</span>
+														<span>10:19</span>
+														<span>10:56</span>
+														<span>11:28</span>
+														<span>12:39</span>
+														<span>13:54</span>
+														<span>15:02</span>
+														<span>15:36</span>
+														<span>16:09</span>
+														<span>16:40</span>
+														<span>17:20</span>
+														<span>18:09</span>
+														<span>18:29</span>
+														<span>19:23</span>
+														<span>19:35</span>
+														<span>20:27</span>
+													</div>
+												</div>
+											</div>
+
+											<div id="tab18" class="tab-pane fade weekend">
+												<div class="row">
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Маг.&nbsp;«Дружба»:</strong>
+														<span>6:45</span>
+														<span>8:00</span>
+														<span>9:15</span>
+														<span>10:30 <em>(до&nbsp;вокзала)</em></span>
+														<span>11:47</span>
+														<span>13:00</span>
+														<span>14:15</span>
+														<span>15:30</span>
+														<span>16:40</span>
+														<span>17:55</span>
+														<span>19:24 <em>(до&nbsp;вокзала)</em></span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">СШ&nbsp;№10:</strong>
+														<span>6:53</span>
+														<span>8:07</span>
+														<span>9:23</span>
+														<span>10:37 <em>(до&nbsp;вокзала)</em></span>
+														<span>11:54</span>
+														<span>13:08</span>
+														<span>14:23</span>
+														<span>15:37</span>
+														<span>16:48</span>
+														<span>18:01</span>
+														<span>19:30 <em>(до&nbsp;вокзала)</em></span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Пл.&nbsp;Ленина:</strong>
+														<span>6:58</span>
+														<span>8:12</span>
+														<span>9:28</span>
+														<span>10:42 <em>(до&nbsp;вокзала)</em></span>
+														<span>11:59</span>
+														<span>13:13</span>
+														<span>14:28</span>
+														<span>15:43</span>
+														<span>16:53</span>
+														<span>18:06</span>
+														<span>19:35 <em>(до&nbsp;вокзала)</em></span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Вокзал:</strong>
+														<span>7:03</span>
+														<span>8:17</span>
+														<span>9:33</span>
+														<span>12:04</span>
+														<span>13:18</span>
+														<span>14:33</span>
+														<span>15:48</span>
+														<span>16:58</span>
+														<span>18:11</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Больница:</strong>
+														<span>7:17</span>
+														<span>8:28</span>
+														<span>9:48</span>
+														<span>12:18</span>
+														<span>13:33</span>
+														<span>14:48</span>
+														<span>16:03</span>
+														<span>17:23</span>
+														<span>18:50</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Вокзал:</strong>
+														<span>7:27</span>
+														<span>8:38</span>
+														<span>9:58</span>
+														<span>11:20</span>
+														<span>12:28</span>
+														<span>13:43</span>
+														<span>14:58</span>
+														<span>16:13</span>
+														<span>17:33</span>
+														<span>19:00</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">«Спутник»:</strong>
+														<span>6:22</span>
+														<span>7:35</span>
+														<span>8:44</span>
+														<span>10:04</span>
+														<span>11:26</span>
+														<span>12:34</span>
+														<span>13:49</span>
+														<span>15:06</span>
+														<span>16:19</span>
+														<span>17:39</span>
+														<span>19:06</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Рынок «Коссовский»:</strong>
+														<span>6:40</span>
+														<span>7:54</span>
+														<span>9:06</span>
+														<span>10:24</span>
+														<span>11:42</span>
+														<span>12:54</span>
+														<span>14:09</span>
+														<span>15:24</span>
+														<span>16:34</span>
+														<span>17:52</span>
+														<span>19:21</span>
+													</div>
+												</div>
+											</div>
+										</div>	                			
+									</div>
+
+
+
+								</div>
+							</div>
+							<div class="panel">
+								<h4 class="acdn-title">
+									<a data-toggle="collapse" data-parent="#accordion1" href="#collapse10"  class="collapsed"><span class="busname">15</span>Рынок «Наш край» — «Спутник» — больница» (автобус курсирует по&nbsp;ул.&nbsp;Шоссейной)</a>
+								</h4>
+								<div id="collapse10" class="panel-collapse collapse">
+
+
+
+
+									<div class="tc-tabs">
+										<ul class="nav nav-tabs">
+											<li class="active daytype"><a data-toggle="tab" data-days="01234" href="#tab19">Будние дни</a></li>		
+										</ul>
+										<div class="tab-content">
+											<div id="tab19" class="tab-pane fade in active">
+												<div class="row">
+													<div class="col-md-12 timelist">
+														
+														<strong class="busstop">Рынок «Наш край»:</strong>
+														<span>6:15</span>
+														<span>7:33</span>
+														<span>8:55</span>
+														<span>10:22</span>
+														<span>11:48 <em>(до&nbsp;пл.&nbsp;Лен.)</em></span>
+														
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Маг.&nbsp;«Дружба»:</strong>
+														<span>7:40</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">СШ&nbsp;№10:</strong>
+														<span>6:20</span>
+														<span>7:47</span>
+														<span>9:02</span>
+														<span>10:29</span>
+														<span>11:55 <em>(до&nbsp;пл.&nbsp;Лен.)</em></span>
+														
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Пл.&nbsp;Ленина:</strong>
+														<span>6:31</span>
+														<span>7:58</span>
+														<span>9:13</span>
+														<span>10:40</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Вокзал (на&nbsp;больницу):</strong>
+														<span>6:37</span>
+														<span>8:04</span>
+														<span>9:19</span>
+														<span>10:46</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Больница:</strong>
+														<span>6:53</span>
+														<span>8:17</span>
+														<span>9:32</span>
+														<span>11:10</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Вокзал (на&nbsp;рынок «Наш край»): </strong>
+														<span>7:00</span>
+														<span>8:27</span>
+														<span>9:42</span>
+														<span>11:20</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">«Спутник»:</strong>
+														<span>5:55</span>
+														<span>7:14</span>
+														<span>8:35</span>
+														<span>9:50</span>
+														<span>11:28</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">АРЗ:</strong>
+														<span>6:00</span>
+														<span>7:20</span>
+														<span>8:42</span>
+														<span>9:57</span>
+														<span>11:35</span>
+													</div>
+												</div>
+											</div>
+										</div>	                			
+									</div>
+
+
+
+								</div>
+							</div>
+							<div class="panel">
+								<h4 class="acdn-title">
+									<a data-toggle="collapse" data-parent="#accordion1" href="#collapse11"  class="collapsed"><span class="busname">6т</span>Маг.&nbsp;«Дружба» — больница</a>
+								</h4>
+								<div id="collapse11" class="panel-collapse collapse">
+
+
+
+									<div class="tc-tabs">
+										<ul class="nav nav-tabs">
+											<li class="active daytype"><a data-toggle="tab" data-days="01234" href="#tab21">Будние дни</a></li>
+										</ul>
+										<div class="tab-content">
+											<div id="tab21" class="tab-pane fade in active">
+												<div class="row">
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Маг.&nbsp;«Дружба»:</strong>
+														<span>8:13</span>
+														<span>9:15 <em>(до&nbsp;кл.&nbsp;Чеп.)</em></span>
+														<span>10:48 <em>(до&nbsp;кл.&nbsp;Чеп.)</em></span>
+														<span>13:25</span>
+														<span>14:45</span>
+														<span>15:52</span>
+														<span>17:05</span>
+														<span>18:20 <em>(до&nbsp;пл.&nbsp;Лен.)</em></span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Рынок «Наш край» (на&nbsp;больницу):</strong>
+														<span>7:13</span>
+														<span>8:17</span>
+														<span>9:19 <em>(до&nbsp;кл.&nbsp;Чеп.)</em></span>
+														<span>10:52 <em>(до&nbsp;кл.&nbsp;Чеп.)</em></span>
+														<span>13:29</span>
+														<span>14:52</span>
+														<span>15:56</span>
+														<span>17:10</span>
+														<span>18:25 <em>(до&nbsp;пл.&nbsp;Лен.)</em></span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Пл.&nbsp;Ленина:</strong>
+														<span>7:30</span>
+														<span>8:30</span>
+														<span>9:32 <em>(до&nbsp;кл.&nbsp;Чеп.)</em></span>
+														<span>11:05 <em>(до&nbsp;кл.&nbsp;Чеп.)</em></span>
+														<span>13:39</span>
+														<span>15:03</span>
+														<span>16:10</span>
+														<span>17:24</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Кладбище Чепелёво:</strong>
+														<span>10:00</span>
+														<span>11:40</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Ул.&nbsp;Барановичская:</strong>
+														<span>10:06</span>
+														<span>11:46</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Больница:</strong>
+														<span>7:45</span>
+														<span>8:42</span>
+														<span>10:15</span>
+														<span>11:54 <em>(до&nbsp;«Спутн.»)</em></span>
+														<span>14:05</span>
+														<span>15:20</span>
+														<span>16:30</span>
+														<span>17:46</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">«Спутник»:</strong>
+														<span>7:58</span>
+														<span>8:57</span>
+														<span>10:28</span>
+														<span>12:55</span>
+														<span>14:20</span>
+														<span>15:34</span>
+														<span>16:44</span>
+														<span>18:00</span>
+													</div>
+												</div>
+											</div>
+										</div>	                			
+									</div>
+
+
+
+								</div>
+							</div>
+							<div class="panel">
+								<h4 class="acdn-title">
+									<a data-toggle="collapse" data-parent="#accordion1" href="#collapse12"  class="collapsed"><img src="./img/bus-rasp.png" alt="Расписание городских автобусов">Площадь Ленина — Кладбище Чепелёво</a>
+								</h4>
+								<div id="collapse12" class="panel-collapse collapse">
+
+									<div class="tc-tabs">
+										<ul class="nav nav-tabs">
+											<li class="active daytype"><a data-toggle="tab" data-days="56" href="#tab24">Выходные дни</a></li>
+										</ul>
+										<div class="tab-content">
+
+											<div id="tab24" class="tab-pane fade in active weekend">
+												<div class="row">
+													<div class="col-md-12 timelist">
+													<strong style="color: #b31a50;">Рейсы курсируют в субботу и воскресенье</strong>
+													</div>
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Пл.&nbsp;Ленина:</strong>
+														<span>9:25</span>
+														<span>10:20</span>
+														<span>12:55</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Кладбище Чепелёво:</strong>
+														<span>9:50</span>
+														<span>10:45</span>
+														<span>13:23</span>
+													</div>
+												</div>
+											</div>
+										</div>	                			
+									</div>
+
+
+								</div>
+							</div>
+
+
+							<div class="panel">
+								<h4 class="acdn-title">
+									<a data-toggle="collapse" data-parent="#accordion1" href="#collapse13"  class="collapsed"><span class="busname">8т</span>Дет.&nbsp;поликлиника — ул.&nbsp;Звездная</a>
+								</h4>
+								<div id="collapse13" class="panel-collapse collapse">
+
+
+
+
+									<div class="tc-tabs">
+										<ul class="nav nav-tabs">
+											<li class="active daytype"><a data-toggle="tab" data-days="01234" href="#tab25">Будние дни</a></li>
+											<li class="daytype"><a data-toggle="tab" data-days="56" href="#tab26">Выходные дни</a></li>
+										</ul>
+										<div class="tab-content">
+											<div id="tab25" class="tab-pane fade in active">
+												<div class="row">
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Ул.&nbsp;Звездная:</strong>
+														<span>6:50</span>
+														<span>8:05</span>
+														<span>9:19</span>
+														<span>10:34</span>
+														<span>11:47</span>
+														<span>14:40</span>
+														<span>16:05</span>
+														<span>17:10 <em>(через ул.&nbsp;Минский тракт)</em></span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Больница:</strong>
+														<span>6:55</span>
+														<span>9:25</span>
+														<span>10:40</span>
+														<span>11:53</span>
+														<span>14:45</span>
+														<span>16:11</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Дом торговли:</strong>
+														<span>7:10</span>
+														<span>8:24</span>
+														<span>9:40</span>
+														<span>10:55</span>
+														<span>12:08</span>
+														<span>13:47</span>
+														<span>15:07</span>
+														<span>16:26</span>
+														<span>17:27</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Дет.&nbsp;поликлиника:</strong>
+														<span>7:25</span>
+														<span>8:45</span>
+														<span>9:56</span>
+														<span>11:12</span>
+														<span>12:25 <em>(до&nbsp;пл.&nbsp;Лен.)</em></span>
+														<span>14:05</span>
+														<span>15:20</span>
+														<span>16:41</span>
+														<span>17:40 <em>(до&nbsp;пл.&nbsp;Лен.)</em></span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Пл.&nbsp;Ленина:</strong>
+														<span>7:37</span>
+														<span>8:58</span>
+														<span>10:09</span>
+														<span>11:25</span>
+														<span>14:18</span>
+														<span>15:33</span>
+														<span>16:52</span>
+													</div>
+												</div>
+											</div>
+
+											<div id="tab26" class="tab-pane fade weekend">
+												<div class="row">
+													<div class="col-md-12 timelist">
+														<strong style="color: #b31a50;">Маршрут курсирует только по субботам</strong><br/>
+														<strong class="busstop">Дет.&nbsp;поликлиника:</strong>
+														<span>9:05</span>
+														<span>10:05</span>
+														<span>11:05 <em>(до&nbsp;пл.&nbsp;Лен.)</em></span>
+														<span>13:05</span>
+														<span>14:10</span>
+														<span>15:20</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">СШ&nbsp;№10:</strong>
+														<span>9:09</span>
+														<span>10:09</span>
+														<span>11:09 <em>(до&nbsp;пл.&nbsp;Лен.)</em></span>
+														<span>13:09</span>
+														<span>14:14</span>
+														<span>15:27</span>
+														<span>16:30</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Пл.&nbsp;Ленина:</strong>
+														<span>9:13</span>
+														<span>10:13</span>
+														<span>12:13</span>
+														<span>13:15</span>
+														<span>14:20</span>
+														<span>15:31</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Ул.&nbsp;Звездная:</strong>
+														<span>9:35</span>
+														<span>10:35</span>
+														<span>12:35</span>
+														<span>13:40</span>
+														<span>14:40</span>
+														<span>16:03 <em>(до&nbsp;«Спутн.»)</em></span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">«Спутник»:</strong>
+														<span>8:46</span>
+														<span>9:53</span>
+														<span>10:53</span>
+														<span>12:53</span>
+														<span>13:58</span>
+														<span>14:58</span>
+													</div>
+												</div>
+											</div>
+										</div>	                			
+									</div>
+
+
+
+								</div>
+							</div>
+							<div class="panel">
+								<h4 class="acdn-title">
+									<a data-toggle="collapse" data-parent="#accordion1" href="#collapse14"  class="collapsed"><span class="busname">12т</span>Больница — ул.&nbsp;Кленовая</a>
+								</h4>
+								<div id="collapse14" class="panel-collapse collapse">
+
+
+
+
+									<div class="tc-tabs">
+										<ul class="nav nav-tabs">
+											<li class="active daytype"><a data-toggle="tab" data-days="01234" href="#tab27">Будние дни</a></li>
+											<li class="daytype"><a data-toggle="tab" data-days="56" href="#tab28">Выходные дни</a></li>
+										</ul>
+										<div class="tab-content">
+											<div id="tab27" class="tab-pane fade in active">
+												<div class="row">
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Ул.&nbsp;Кленовая:</strong>
+														<span>8:15</span>
+														<span>9:20 <em>(до&nbsp;пл.&nbsp;Лен.)</em></span>
+														<span>11:00</span>
+														<span>12:15</span>
+														<span>13:30 <em>(до&nbsp;вокзала)</em></span>
+														<span>14:25</span>
+														<span>15:30</span>
+														<span>16:35</span>
+														<span>17:40 <em>(по&nbsp;ул.&nbsp;Минский тракт)</em></span>
+														<span>19:03 <em>(по&nbsp;ул.&nbsp;Минский тракт)</em></span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Маг.&nbsp;«Дружба»:</strong>
+														<span>8:19</span>
+														<span>9:24 <em>(до&nbsp;пл.&nbsp;Лен.)</em></span>
+														<span>11:06</span>
+														<span>12:19</span>
+														<span>13:34 <em>(до&nbsp;вокзала)</em></span>
+														<span>14:29</span>
+														<span>15:33</span>
+														<span>16:39</span>
+														<span>17:45 <em>(по&nbsp;ул.&nbsp;Минский тракт)</em></span>
+														<span>19:08 <em>(до&nbsp;пл.&nbsp;Лен.)</em></span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Пл.&nbsp;Ленина:</strong>
+														<span>8:36</span>
+														<span>11:20</span>
+														<span>12:32</span>
+														<span>14:42</span>
+														<span>15:47</span>
+														<span>16:52</span>
+														<span>17:58 <em>(по&nbsp;ул.&nbsp;Минский тракт)</em></span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Больница:</strong>
+														<span>8:50</span>
+														<span>11:40</span>
+														<span>12:55</span>
+														<span>14:57</span>
+														<span>16:02</span>
+														<span>17:07</span>
+														<span>18:19 <em>(по&nbsp;ул.&nbsp;Шоссейной)</em></span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">«Спутник»:</strong>
+														<span>9:05</span>
+														<span>10:25</span>
+														<span>11:55</span>
+														<span>13:10</span>
+														<span>14:07</span>
+														<span>15:13</span>
+														<span>16:18</span>
+														<span>17:23</span>
+														<span>18:35 <em>(по&nbsp;ул.&nbsp;Шоссейной)</em></span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">СШ&nbsp;№10:</strong>
+														<span>9:08</span>
+														<span>10:30</span>
+														<span>12:00</span>
+														<span>13:15</span>
+														<span>14:12</span>
+														<span>15:18</span>
+														<span>16:23</span>
+														<span>17:28</span>
+														<span>18:49</span>
+													</div>
+												</div>
+											</div>
+
+											<div id="tab28" class="tab-pane fade weekend">
+												<div class="row">
+													<div class="col-md-12 timelist">
+														<strong style="color: #b31a50;">Выделенные рейсы курсируют до остановки «Ул.&nbsp;Кленовая»</strong><br/>
+														<strong class="busstop">Ул.&nbsp;Кленовая:</strong>
+														<span>7:20</span>
+														<span>8:35</span>
+														<span>9:50</span>
+														<span>11:03</span>
+														<span>12:20 <em>(до&nbsp;пл.&nbsp;Лен.)</em></span>
+														<span>13:55</span>
+														<span>15:03</span>
+														<span>17:15</span>
+													</div>
+
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Маг.&nbsp;«Дружба»:</strong>
+														<span>7:25</span>
+														<span>8:40</span>
+														<span>9:57</span>
+														<span>11:08</span>
+														<span>12:25 <em>(до&nbsp;пл.&nbsp;Лен.)</em></span>
+														<span>14:00</span>
+														<span>15:08</span>
+														<span>16:12</span>
+														<span>17:19</span>
+														<span>18:17 <em>(до&nbsp;пл.&nbsp;Лен.)</em></span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">СШ&nbsp;№10:</strong>
+														<span>7:31</span>
+														<span>8:46</span>
+														<span>10:03</span>
+														<span>11:14</span>
+														<span>12:32 <em>(до&nbsp;пл.&nbsp;Лен.)</em></span>
+														<span>14:05</span>
+														<span>15:13</span>
+														<span>16:17</span>
+														<span>17:25</span>
+														<span>18:22 <em>(до&nbsp;пл.&nbsp;Лен.)</em></span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Пл.&nbsp;Ленина:</strong>
+														<span>7:37</span>
+														<span>8:50</span>
+														<span>10:08</span>
+														<span>11:20</span>
+														<span>14:10</span>
+														<span>15:17</span>
+														<span>16:22</span>
+														<span>17:30</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Вокзал (на&nbsp;больницу):</strong>
+														<span>7:39</span>
+														<span>8:54</span>
+														<span>10:12</span>
+														<span>11:25</span>
+														<span>14:15</span>
+														<span>15:23</span>
+														<span>16:25</span>
+														<span>17:33</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Больница:</strong>
+														<span><strong>8:00</strong></span>
+														<span><strong>9:10</strong></span>
+														<span><strong>10:27</strong></span>
+														<span><strong>11:40</strong></span>
+														<span><strong>14:27</strong></span>
+														<span>15:35</span>
+														<span><strong>16:35</strong></span>
+														<span>17:45</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Вокзал (на&nbsp;ул.&nbsp;Кленовую):</strong>
+														<span><strong>8:08</strong></span>
+														<span><strong>9:20</strong></span>
+														<span><strong>10:37</strong></span>
+														<span><strong>11:50</strong></span>
+														<span><strong>14:37</strong></span>
+														<span>15:45</span>
+														<span><strong>16:44</strong></span>
+														<span>17:54</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">«Спутник»:</strong>
+														<span><strong>8:13</strong></span>
+														<span><strong>9:26</strong></span>
+														<span><strong>10:42</strong></span>
+														<span><strong>11:55</strong></span>
+														<span><strong>13:25</strong></span>
+														<span><strong>14:42</strong></span>
+														<span>15:50</span>
+														<span><strong>16:51</strong></span>
+														<span>18:01</span>
+													</div>
+
+
+												</div>
+											</div>
+										</div>	                			
+									</div>
+
+
+
+								</div>
+							</div>
+							<div class="panel">
+								<h4 class="acdn-title">
+									<a data-toggle="collapse" data-parent="#accordion1" href="#collapse15"  class="collapsed"><img src="./img/bus-rasp.png" alt="Расписание городских автобусов">Слоним — Жировичи</a>
+								</h4>
+								<div id="collapse15" class="panel-collapse collapse">
+
+
+
+
+									<div class="tc-tabs">
+										<ul class="nav nav-tabs">
+											<li class="active daytype"><a data-toggle="tab" data-days="01234" href="#tab29">Будние дни</a></li>
+											<li class="daytype"><a data-toggle="tab" data-days="56" href="#tab30">Выходные дни</a></li>
+										</ul>
+										<div class="tab-content">
+											<div id="tab29" class="tab-pane fade in active">
+												<div class="row">
+													<div class="col-md-12 timelist">
+
+														<strong class="busstop">Автовокзал:</strong>
+														<span>6:08</span>
+														<span>7:35</span>
+														<span>10:00</span>
+														<span>12:10</span>
+														<span>13:35</span>
+														<span>15:20</span>
+														<span>17:15</span>
+														<span>19:40</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Жировичи:</strong>
+														<span>6:57</span>
+														<span>8:30</span>
+														<span>10:51</span>
+														<span>12:55</span>
+														<span>14:36</span>
+														<span>16:30</span>
+														<span>18:34</span>
+														<span>20:24</span>
+													</div>
+												</div>
+											</div>
+
+											<div id="tab30" class="tab-pane fade weekend">
+												<div class="row">
+													<div class="col-md-12 timelist">
+														<strong style="color: #b31a50;">Суббота</strong>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Автовокзал:</strong>
+														<span>7:35</span>
+														<span>10:00</span>
+														<span>12:10</span>
+														<span>13:35</span>
+														<span>15:20</span>
+														<span>17:15</span>
+														<span>19:37</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Жировичи:</strong>
+														<span>8:38</span>
+														<span>10:51</span>
+														<span>12:55</span>
+														<span>14:36</span>
+														<span>16:30</span>
+														<span>18:34</span>
+														<span>20:24</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<br/><strong style="color: #b31a50;">Воскресенье</strong>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Автовокзал:</strong>
+														<span>7:20</span>
+														<span>10:00</span>
+														<span>12:10</span>
+														<span>15:20</span>
+														<span>17:45</span>
+														<span>20:05</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Жировичи:</strong>
+														<span>8:30</span>
+														<span>10:51</span>
+														<span>12:55</span>
+														<span>16:30</span>
+														<span>19:00</span>
+														<span>20:49</span>
+													</div>
+												</div>
+											</div>
+										</div>	                			
+									</div>
+
+
+
+								</div>
+							</div>
+							<div class="panel">
+								<h4 class="acdn-title">
+									<a data-toggle="collapse" data-parent="#accordion1" href="#collapse16"  class="collapsed"><img src="./img/bus-rasp.png" alt="Расписание городских автобусов">Слоним — Залесье</a>
+								</h4>
+								<div id="collapse16" class="panel-collapse collapse">
+
+
+
+
+									<div class="tc-tabs">
+										<ul class="nav nav-tabs">
+											<li class="active daytype"><a data-toggle="tab" data-days="01234" href="#tab31">Только по средам</a></li>
+											<li class="daytype"><a data-toggle="tab" data-days="56" href="#tab32">Воскресенье</a></li>
+										</ul>
+										<div class="tab-content">
+											<div id="tab31" class="tab-pane fade in active">
+												<div class="row">
+													<div class="col-md-12 timelist">
+														<strong style="color: #b31a50;">Маршрут курсирует только по средам</strong>
+													</div>
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Автовокзал:</strong>
+														<span>6:05</span>
+														<span>17:15</span>
+													</div>
+												</div>
+											</div>
+
+											<div id="tab32" class="tab-pane fade weekend">
+												<div class="row">
+
+													<div class="col-md-12 timelist">
+														<strong style="color: #b31a50;">Маршрут курсирует только по воскресеньям</strong>
+													</div>
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Автовокзал:</strong>
+														<span>7:20</span>
+														<span>17:45</span>
+													</div>
+												</div>
+											</div>
+										</div>	                			
+									</div>
+
+
+
+								</div>
+							</div>
+							<div class="panel">
+								<h4 class="acdn-title">
+									<a data-toggle="collapse" data-parent="#accordion1" href="#collapse17"  class="collapsed"><span class="busname">2т</span>Магазин «Дружба» — вокзал (перевозчик: УП «Албикус»)</a>
+								</h4>
+								<div id="collapse17" class="panel-collapse collapse">
+
+
+
+
+									<div class="tc-tabs">
+										<ul class="nav nav-tabs">
+											<li class="active daytype"><a data-toggle="tab" data-days="01234" href="#tab33">Будние дни</a></li>
+											<li class="daytype"><a data-toggle="tab" data-days="56" href="#tab34">Выходные дни</a></li>
+										</ul>
+										<div class="tab-content">
+											<div id="tab33" class="tab-pane fade in active">
+												<div class="row">
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Энка:</strong>
+														<span>7:05</span>
+														<span>7:18</span>
+														<span>7:40</span>
+														<span>7:55</span>
+														<span>8:08</span>
+														<span>8:28</span>
+														<span>8:40</span>
+														<span>9:02</span>
+														<span>9:39</span>
+														<span>9:48</span>
+														<span>10:15</span>
+														<span>10:30</span>
+														<span>10:49</span>
+														<span>10:59</span>
+														<span>11:18</span>
+														<span>11:33</span>
+														<span>11:55</span>
+														<span>12:36</span>
+														<span>13:05</span>
+														<span>13:43</span>
+														<span>14:15</span>
+														<span>14:26</span>
+														<span>15:03</span>
+														<span>15:18</span>
+														<span>15:48</span>
+														<span>16:02</span>
+														<span>16:25</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">СШ&nbsp;№10 (на&nbsp;аптеку):</strong>
+														<span>7:11</span>
+														<span>7:23</span>
+														<span>7:46</span>
+														<span>8:00</span>
+														<span>8:13</span>
+														<span>8:33</span>
+														<span>8:45</span>
+														<span>9:11</span>
+														<span>9:44</span>
+														<span>9:53</span>
+														<span>10:20</span>
+														<span>10:35</span>
+														<span>10:54</span>
+														<span>11:04</span>
+														<span>11:23</span>
+														<span>11:38</span>
+														<span>12:00</span>
+														<span>12:41</span>
+														<span>13:10</span>
+														<span>13:48</span>
+														<span>14:18</span>
+														<span>14:31</span>
+														<span>15:08</span>
+														<span>15:23</span>
+														<span>15:53</span>
+														<span>16:07</span>
+														<span>16:30</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Аптека:</strong>
+														<span>7:15</span>
+														<span>7:27</span>
+														<span>7:50</span>
+														<span>8:05</span>
+														<span>8:17</span>
+														<span>8:38</span>
+														<span>8:50</span>
+														<span>9:16</span>
+														<span>9:49</span>
+														<span>9:58</span>
+														<span>10:25</span>
+														<span>10:40</span>
+														<span>10:59</span>
+														<span>11:09</span>
+														<span>11:28</span>
+														<span>11:43</span>
+														<span>12:05</span>
+														<span>12:46</span>
+														<span>13:15</span>
+														<span>13:53</span>
+														<span>14:23</span>
+														<span>14:36</span>
+														<span>15:13</span>
+														<span>15:28</span>
+														<span>15:58</span>
+														<span>16:12</span>
+														<span>16:35</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Вокзал:</strong>
+														<span>7:23</span>
+														<span>7:31</span>
+														<span>7:55</span>
+														<span>8:13</span>
+														<span>8:27</span>
+														<span>8:45</span>
+														<span>9:20</span>
+														<span>9:35</span>
+														<span>9:55</span>
+														<span>10:13</span>
+														<span>10:32</span>
+														<span>10:43</span>
+														<span>11:03</span>
+														<span>11:15</span>
+														<span>11:33</span>
+														<span>11:46</span>
+														<span>12:15</span>
+														<span>12:53</span>
+														<span>13:25</span>
+														<span>14:00</span>
+														<span>14:34</span>
+														<span>15:02</span>
+														<span>15:25</span>
+														<span>15:45</span>
+														<span>16:04</span>
+														<span>16:28</span>
+														<span>16:58</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Дом торговли:</strong>
+														<span>7:27</span>
+														<span>7:36</span>
+														<span>8:00</span>
+														<span>8:18</span>
+														<span>8:32</span>
+														<span>8:50</span>
+														<span>9:25</span>
+														<span>9:40</span>
+														<span>10:00</span>
+														<span>10:18</span>
+														<span>10:37</span>
+														<span>10:48</span>
+														<span>11:07</span>
+														<span>11:19</span>
+														<span>11:38</span>
+														<span>11:50</span>
+														<span>12:20</span>
+														<span>12:58</span>
+														<span>13:30</span>
+														<span>14:05</span>
+														<span>14:39</span>
+														<span>15:07</span>
+														<span>15:30</span>
+														<span>15:50</span>
+														<span>16:08</span>
+														<span>16:33</span>
+														<span>17:03</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">СШ&nbsp;№10 (на&nbsp;Энку):</strong>
+														<span>7:31</span>
+														<span>7:41</span>
+														<span>8:04</span>
+														<span>8:23</span>
+														<span>8:37</span>
+														<span>8:55</span>
+														<span>9:30</span>
+														<span>9:45</span>
+														<span>10:05</span>
+														<span>10:23</span>
+														<span>10:42</span>
+														<span>10:53</span>
+														<span>11:10</span>
+														<span>11:24</span>
+														<span>11:43</span>
+														<span>11:55</span>
+														<span>12:25</span>
+														<span>13:05</span>
+														<span>13:35</span>
+														<span>14:10</span>
+														<span>14:44</span>
+														<span>15:12</span>
+														<span>15:35</span>
+														<span>15:55</span>
+														<span>16:13</span>
+														<span>16:38</span>
+														<span>17:08</span>
+													</div>
+												</div>
+											</div>
+
+											<div id="tab34" class="tab-pane fade weekend">
+												<div class="row">
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Энка:</strong>
+														<span>8:22</span>
+														<span>8:33</span>
+														<span>8:59</span>
+														<span>9:12</span>
+														<span>9:32</span>
+														<span>9:48</span>
+														<span>10:13</span>
+														<span>10:27</span>
+														<span>10:45</span>
+														<span>11:10</span>
+														<span>11:45</span>
+														<span>12:06</span>
+														<span>12:24</span>
+														<span>12:43</span>
+														<span>12:58</span>
+														<span>13:20</span>
+														<span>13:37</span>
+														<span>13:56</span>
+														<span>14:13</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">СШ&nbsp;№10 (на&nbsp;аптеку):</strong>
+														<span>8:27</span>
+														<span>8:38</span>
+														<span>9:04</span>
+														<span>9:17</span>
+														<span>9:37</span>
+														<span>9:53</span>
+														<span>10:18</span>
+														<span>10:31</span>
+														<span>10:48</span>
+														<span>11:15</span>
+														<span>11:50</span>
+														<span>12:11</span>
+														<span>12:29</span>
+														<span>12:48</span>
+														<span>13:03</span>
+														<span>13:25</span>
+														<span>13:42</span>
+														<span>14:01</span>
+														<span>14:18</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Аптека:</strong>
+														<span>8:31</span>
+														<span>8:43</span>
+														<span>9:09</span>
+														<span>9:22</span>
+														<span>9:42</span>
+														<span>9:58</span>
+														<span>10:23</span>
+														<span>10:36</span>
+														<span>10:53</span>
+														<span>11:20</span>
+														<span>11:55</span>
+														<span>12:16</span>
+														<span>12:34</span>
+														<span>12:53</span>
+														<span>13:08</span>
+														<span>13:30</span>
+														<span>13:47</span>
+														<span>14:06</span>
+														<span>14:23</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Вокзал:</strong>
+														<span>8:37</span>
+														<span>8:57</span>
+														<span>9:17</span>
+														<span>9:32</span>
+														<span>9:53</span>
+														<span>10:12</span>
+														<span>10:28</span>
+														<span>10:50</span>
+														<span>11:18</span>
+														<span>11:50</span>
+														<span>12:04</span>
+														<span>12:26</span>
+														<span>12:39</span>
+														<span>12:59</span>
+														<span>13:14</span>
+														<span>13:36</span>
+														<span>13:55</span>
+														<span>14:14</span>
+														<span>14:33 <em>(по&nbsp;приходу дизеля)</em></span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Дом торговли:</strong>
+														<span>8:42</span>
+														<span>9:02</span>
+														<span>9:22</span>
+														<span>9:37</span>
+														<span>9:58</span>
+														<span>10:17</span>
+														<span>10:33</span>
+														<span>10:55</span>
+														<span>11:23</span>
+														<span>11:55</span>
+														<span>12:09</span>
+														<span>12:31</span>
+														<span>12:44</span>
+														<span>13:04</span>
+														<span>13:19</span>
+														<span>13:41</span>
+														<span>14:00</span>
+														<span>14:19</span>
+														<span>14:38 <em>(по&nbsp;приходу дизеля)</em></span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">СШ&nbsp;№10 (на&nbsp;Энку):</strong>
+														<span>8:47</span>
+														<span>9:07</span>
+														<span>9:27</span>
+														<span>9:42</span>
+														<span>10:04</span>
+														<span>10:22</span>
+														<span>10:38</span>
+														<span>11:00</span>
+														<span>11:28</span>
+														<span>12:00</span>
+														<span>12:14</span>
+														<span>12:36</span>
+														<span>12:49</span>
+														<span>13:09</span>
+														<span>13:24</span>
+														<span>13:46</span>
+														<span>14:05</span>
+														<span>14:24</span>
+														<span>14:43 <em>(по&nbsp;приходу дизеля)</em></span>
+													</div>
+												</div>
+											</div>
+										</div>	                			
+									</div>
+
+
+
+								</div>
+							</div>
+							<div class="panel">
+								<h4 class="acdn-title">
+									<a data-toggle="collapse" data-parent="#accordion1" href="#collapse18"  class="collapsed"><span class="busname">3т</span>РАПТ — больница (перевозчик: УП «Албикус»)</a>
+								</h4>
+								<div id="collapse18" class="panel-collapse collapse">
+
+
+
+
+									<div class="tc-tabs">
+										<ul class="nav nav-tabs">
+											<li class="active daytype"><a data-toggle="tab" data-days="01234" href="#tab35">Будние дни</a></li>
+											<li class="daytype"><a data-toggle="tab" data-days="56" href="#tab36">Выходные дни</a></li>
+										</ul>
+										<div class="tab-content">
+											<div id="tab35" class="tab-pane fade in active">
+												<div class="row">
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">РАПТ:</strong>
+														<span>7:16</span>
+														<span>8:00</span>
+														<span>8:51</span>
+														<span>9:40</span>
+														<span>11:25</span>
+														<span>12:14</span>
+														<span>16:35</span>
+														<span>17:27</span>
+														<span>18:23</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Аптека:</strong>
+														<span>7:26</span>
+														<span>8:10</span>
+														<span>9:01</span>
+														<span>9:50</span>
+														<span>10:33</span>
+														<span>11:37</span>
+														<span>12:24</span>
+														<span>16:45</span>
+														<span>17:37</span>
+														<span>18:33</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Вокзал (на&nbsp;больницу):</strong>
+														<span>7:31</span>
+														<span>8:15</span>
+														<span>9:06</span>
+														<span>9:55</span>
+														<span>10:40</span>
+														<span>11:41</span>
+														<span>12:29</span>
+														<span>16:50</span>
+														<span>17:42</span>
+														<span>18:38</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Больница:</strong>
+														<span>7:36</span>
+														<span>8:24</span>
+														<span>9:18</span>
+														<span>10:02 <em>(до&nbsp;Дома торг.)</em></span>
+														<span>10:53</span>
+														<span>11:50</span>
+														<span>12:35</span>
+														<span>16:00</span>
+														<span>17:00</span>
+														<span>17:55</span>
+														<span>18:54</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Вокзал (на&nbsp;РАПТ):</strong>
+														<span>7:41</span>
+														<span>8:30</span>
+														<span>9:24</span>
+														<span>10:07</span>
+														<span>11:00</span>
+														<span>11:57</span>
+														<span>12:40</span>
+														<span>16:07</span>
+														<span>17:06</span>
+														<span>18:05</span>
+														<span>19:05</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Дом торговли:</strong>
+														<span>7:46</span>
+														<span>8:35</span>
+														<span>9:28</span>
+														<span>10:13</span>
+														<span>11:06</span>
+														<span>12:02</span>
+														<span>12:45</span>
+														<span>16:12</span>
+														<span>17:11</span>
+														<span>18:10</span>
+														<span>19:09</span>
+													</div>
+												</div>
+											</div>
+
+											<div id="tab36" class="tab-pane fade weekend">
+												<div class="row">
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">РАПТ:</strong>
+														<span>7:15</span>
+														<span>7:58</span>
+														<span>9:00</span>
+														<span>9:50</span>
+														<span>10:45</span>
+														<span>11:45</span>
+														<span>12:32 <em>(обед)</em></span>
+														<span>16:38</span>
+														<span>17:30</span>
+														<span>18:23</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Аптека:</strong>
+														<span>7:26</span>
+														<span>8:10</span>
+														<span>9:10</span>
+														<span>10:00</span>
+														<span>10:56</span>
+														<span>11:55</span>
+														<span>12:42</span>
+														<span>16:48</span>
+														<span>17:40</span>
+														<span>18:33</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Вокзал (на&nbsp;больницу):</strong>
+														<span>7:30</span>
+														<span>8:15</span>
+														<span>9:15</span>
+														<span>10:05</span>
+														<span>11:02</span>
+														<span>12:00</span>
+														<span>12:47</span>
+														<span>16:55</span>
+														<span>17:45</span>
+														<span>18:38</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Больница:</strong>
+														<span>7:35</span>
+														<span>8:28</span>
+														<span>9:28</span>
+														<span>10:10</span>
+														<span>11:10</span>
+														<span>12:10</span>
+														<span>12:55</span>
+														<span>16:00</span>
+														<span>17:00</span>
+														<span>17:55</span>
+														<span>18:53</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Вокзал (на&nbsp;РАПТ):</strong>
+														<span>7:43</span>
+														<span>8:33</span>
+														<span>9:33</span>
+														<span>10:18</span>
+														<span>11:18</span>
+														<span>12:15</span>
+														<span>13:00</span>
+														<span>16:07</span>
+														<span>17:10</span>
+														<span>18:00</span>
+														<span>18:58</span>
+													</div>
+
+													<div class="col-md-12 timelist">
+														<strong class="busstop">Дом торговли:</strong>
+														<span>7:48</span>
+														<span>8:40</span>
+														<span>9:38</span>
+														<span>10:24</span>
+														<span>11:23</span>
+														<span>12:20</span>
+														<span>13:05</span>
+														<span>16:15</span>
+														<span>17:15</span>
+														<span>18:05</span>
+														<span>19:05</span>
+													</div>
+												</div>
+											</div>
+										</div>	                			
+									</div>
+
+
+
+								</div>
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			
+	    </main>
+	    <!-- Main End -->
+
+	    <footer>
+<p></p>
+<p></p>
+<p></p>
+<p>.</p>
+
+	    </footer>
+
+	    <!-- jQuery library -->
+	    <script src="js/jquery.min.js"></script>
+
+	    <!-- bootstrap.min.js -->
+	    <script src="js/bootstrap.min.js"></script>
+	    <script>
+
+var daysArray = {
+	0 : 'ПН',
+	1 : 'ВТ',
+	2 : 'СР',
+	3 : 'ЧТ',
+	4 : 'ПТ',
+	5 : 'СБ',
+	6 : 'ВС'
+};
+
+// функция затемнения времени ушедшего транспорта
+var grayTimer = null;
+function makeGrayTimes() {
+	clearTimeout(grayTimer);
+	grayTimer = null;	
+	var date = new Date();
+	(date.getHours() < 4) ? date.setFullYear(1970, 0, 2) : date.setFullYear(1970, 0, 1);
+
+	$('.timelist > span').each(function(ind, elem) {
+		if (elem.getAttribute('date-time') < date) elem.classList.add('gray');
+	});	
+	grayTimer = setTimeout(makeGrayTimes, 30*1000); // через 30 сек запустим снова
+}
+
+// функция проставляет метки времени
+function setATRTimes() {
+	grayTimer = null;	
+	var date = new Date();
+	var startYear = '01 Jan 1970';
+	(date.getHours() < 4) ? startYear = '02 Jan 1970' : startYear = '01 Jan 1970';
+
+	$('.timelist > span').each(function(ind, elem) {
+		elem.setAttribute('date-time', Math.floor(new Date(startYear+' '+$(elem).text())));
+	});
+}
+
+function two(num) { return ('0' + num).slice(-2) }; // insert 0 before
+
+// модные часы
+function digitalWatch() {
+	var date = new Date();
+	var hours   = two(date.getHours());
+	var minutes = two(date.getMinutes());	
+	var myDay = (date.getDay()+'').replace(0, 7) -1;
+	var dayClass = ([5, 6].indexOf(myDay) !== -1) ? 'weekend' : 'weekday'; 
+	document.getElementById('busclock').innerHTML =  '<span class="clockDW '+dayClass+'">' + daysArray[myDay] + '</span> ' + hours + ':' + minutes;
+	setTimeout(digitalWatch, 30*1000); // через 30 сек запустим снова
+}
+// открывает вкладку подходящего на сегодня дня недели
+function activateTab() {
+	var date = new Date();
+	var day = null;
+	if (day === null)                        day = (date.getDay()+'').replace(0, 7) -1;
+	$('.daytype a[data-days*="'+day+'"]').trigger('click'); // кликаем по нужной нам вкладке
+}
+
+digitalWatch();
+setATRTimes();
+makeGrayTimes();
+activateTab();
+
+
+	    </script>
+	</body>
+</html>

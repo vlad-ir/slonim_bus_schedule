@@ -1,0 +1,129 @@
+
+.busname {
+    display: inline-block;
+    background-color: #007DD6;
+    min-width: 40px;
+    height: 24px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    margin: 0px 5px 0px -50px;
+    padding: 3px 6px;
+    text-align: center;
+    border-radius: 2px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.1));
+    color: white;
+    text-shadow: 0px -1px 0px #616161;
+    vertical-align: middle;
+    box-shadow: 1px 1px 2px #B5B5B5;
+    float: left;
+}
+.daytype a[data-days*="5"]{
+    background-color: #A50000;
+    background-image: linear-gradient(to bottom, #A50000 20%, #FFF4F4 20%);
+}
+
+.daytype.active a[data-days*="5"]{
+    border-bottom: 1px solid #A50000;
+    background-color: #A50000;
+    background-image: linear-gradient(to bottom, #A50000, #A50000);
+    color: #fff !important;
+}
+
+
+.daytype.active a[data-days*="1"]{
+    border-bottom: 1px solid #F4FAFF;
+    background-color: #0059A5;
+    background-image: linear-gradient(to bottom, #0059A5, #0059A5);
+    color: #fff !important;
+}
+
+.daytype a[data-days*="1"]{
+    background-color: #0059A5;
+    background-image: linear-gradient(to bottom, #0059A5 20%, #F4FAFF 20%);
+}
+
+.timelist {
+    padding-bottom: 4px;
+}
+.timelist .busstop{
+    color: #2b6086;
+}
+.timelist > span.gray {
+    color: #797979;
+    opacity: 0.7;
+}
+.timelist > span {
+    margin: 0 2px 2px 0;
+    display: inline-block;
+    padding: 0 3px;
+    line-height: 1.2em;
+    min-width: 42px;
+}
+#busclock{
+	font-size: 18px;
+	text-align: center;
+	margin: 10px auto;
+	width: 140px;
+	padding: 10px;
+	border: 2px solid #eaeaea;
+	background-color: #fdffe6;
+}
+.clockDW.weekend {
+    border-top-color: #ce2d2d;
+}
+.clockDW.weekday {
+    border-top-color: #0373C3;
+}
+.clockDW {
+    padding: 4px 8px 0px;
+    color: #424242;
+    text-shadow: none;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 10px;
+    display: inline-block;
+    height: 24px;
+    vertical-align: text-top;
+    margin-top: -4px;
+    margin-right: 3px;
+    border-top: 4px solid #0171c1;
+    border-top-color: rgb(0, 0, 0);
+    background-color: #e0e0e0;
+    box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.5);
+}
+.tab-content > .tab-pane {
+    padding: 20px;
+    margin-top: -3px;
+    border: 1px solid #0059a5;
+    background-color: #f4faff;
+}
+.tab-pane.weekend{
+	background-color: #fff4f4;
+	border-color: #a50000;
+}
+/*-----------------------
+    Accordion
+-------------------------*/
+.tc-accordion .panel {margin-bottom: 10px;background-color: rgba(0, 0, 0, 0.035);border: 0;border-radius: 0;box-shadow: none; color: #285c2a;}
+.acdn-title {margin: 0;line-height: 1.42857143;border: 2px solid #f3f3f3;}
+.acdn-title a {display: block;position: relative;padding: 10px 30px 10px 60px;font-size: 18px;color: #0059A5;}
+.acdn-title img{
+	float: left;
+	margin: 0 4px 0 -40px;
+	width: 24px;
+	height: auto;
+}
+.acdn-body {padding: 15px;border-top: 1px solid rgba(0, 0, 0, 0.04);font-size: 13px;}
+.tc-accordion .acdn-title a:after {position: absolute;content: "⬆️";color: inherit;right: 8px;top: 50%;-webkit-transform: translateY(-50%);transform: translateY(-50%);}
+.tc-accordion .acdn-title a.collapsed:after {content: "⬇️";}
+
+/*-----------------------
+    Tabs
+-------------------------*/
+.tc-tabs {padding: 20px;background: #ffffff;border: 2px solid rgba(68, 68, 68, 0.1);}
+.tc-tabs .tc-tab-title {margin: 0 0 15px 0;font-size: 20px;line-height: normal;}
+.tc-tabs .tc-tab-desc {font-size: 13px;}
+.tc-tabs .tab-content {padding: 0; margin: 0;}
+.tc-tabs .nav-tabs {border-bottom: 0;}
+.tc-tabs .nav-tabs li a {border: 0 !important;border-radius: 0;line-height: normal;font-size: 13px;color: #777;font-weight: 600;padding: 8px 20px;margin-right: 4px;margin-bottom: 4px;}
